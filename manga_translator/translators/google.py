@@ -96,8 +96,8 @@ class GoogleTranslator(CommonTranslator):
         'ESP': 'es',
         'TRK': 'tr',
         'UKR': 'uk',
-        'VIN': 'vi',
-        'ARA': 'id',
+        'VIN': 'id',
+        'ARA': 'ar',
     }
 
     def __init__(self, service_urls=DEFAULT_CLIENT_SERVICE_URLS, user_agent=DEFAULT_USER_AGENT,
